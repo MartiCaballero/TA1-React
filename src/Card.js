@@ -1,6 +1,5 @@
 import React from 'react';
-import './Card.css'; // Asegúrate de crear este archivo CSS o poner estilos en línea
-
+import './Card.css';
 const Card = ({ title, description, assignedTo, startDate, endDate }) => {
   return (
     <div className="card">
